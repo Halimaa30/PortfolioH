@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halima Khanam Tasnim - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQai6C5LfAe7x2/xfxcd/3SH5/EtmM39FbID5pmGcfANzZJ+XW3URy98y" crossorigin="anonymous">
+
+   <!-- Bootstrap JavaScript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-9ndCyUa1z3pQlVaw6MtRP6rrXUw6M84rA2mZ5DjoTdMJXT0WEFxgGpCIXzaPe6HI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+   
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7f9;  
+            color: #333;
+            line-height: 1.6;
+            padding: 0;
+        }
+
+     
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+
+        header {
+            text-align: center;
+            background-color: #2b3e52;  
+            color: white;
+            padding: 235px 0;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        header img {
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 60%; /* Ensures a perfect circle */
+            width: 250px; /* Equal width */
+            height: 250px; /* Equal height */
+            object-fit: cover; /* Ensures proper scaling */
+            border: 5px solid white; /* Optional border */
+}
+        header h1 {
+            font-size: 30px; /* Make the name smaller */
+            margin-top: 80px; /* Push the name below the image */
+            margin-bottom: 10px;
+}
+
+        header p {
+            font-size: 18px;
+            color: #ecf0f1;  
+        }
+
+
+        nav {
+            text-align: center;
+            background-color: #ecf0f1;  
+            margin-top: 20px;
+            border-radius: 8px;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #2c3e50;  
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            color: #3498db;  
+        }
+
+     
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);  
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+        }
+
+        .card h3 {
+            font-size: 22px;
+            color: #2980b9; 
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #809c9e;
+            margin-bottom: 15px;
+        }
+
+        .card a {
+            color: #3498db;  
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .card a:hover {
+            text-decoration: underline;
+        }
+
+
+        .card i {
+            font-size: 30px;
+            color: #3498db;
+            margin-right: 10px;
+        }
+
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transform-style: preserve-3d;
+            perspective: 1000px;
+        }
+    
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+        footer a {
+            color: #349bdb;
+            text-decoration: none;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .hero-section {
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .card-container .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <img src="Chobir link diyen" alt="Halima Khanam Tasnim">
+            <div>
+                <h1>Halima Khanam Tasnim</h1>
+                <p> Computer Science Student </p>
+            </div>
+        </header>
+
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate Computer Science and Engineering (CSE) student with a strong interest in exploring all aspects of the field. From web development to competitive programming, I am eager to learn and grow my skills in various domains, including coding, software development, and innovative technologies. I believe in continuous learning and enjoy diving deep into topics like data structures, algorithms, and programming languages such as C++ and JavaScript. Alongside my technical journey, I also have a creative side and love exploring areas like design and user experience. My goal is to contribute meaningfully to the tech world while building a versatile skill set that empowers me to tackle real-world challenges effectively.</p>
+        </section>
+
+    
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="card-container">
+                <div class="card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Project 1: Web Development</h3>
+                    <p>A dynamic portfolio website built using HTML, CSS, and JavaScript to showcase projects and skills.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-tasks"></i>
+                    <h3>Project 2: Task Manager</h3>
+                    <p>A task management app built with a user-friendly interface, helping users organize their tasks.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>Project 3: E-commerce Website</h3>
+                    <p>Developed an e-commerce website with product listings, shopping cart, and secure payment integration.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <div class="card-container">
+                <div class="card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Bachelor of Science in Computer Science and Engineering</h3>
+                    <p>Premier University Chittagong (2023 – Present)</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-school"></i>
+                    <h3>HSC</h3>
+                    <p>Gachbaria Government College (2020 – 2022)</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-school"></i>
+                    <h3>SSC</h3>
+                    <p>Begum Gul Chemonara Academy School & College (2018 – 2020)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="card-container">
+                <div class="card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Teacher</h3>
+                    <p>Teaching students from different classes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="card-container">
+                <div class="card">
+                    <i class="fas fa-code"></i>
+                    <h3>Programming Languages</h3>
+                    <p>C, C++,HTML,CSS,Java</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-users"></i>
+                    <h3>Leadership</h3>
+                    <p>Effective team leadership and communication skills.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-language"></i>
+                    <h3>Languages</h3>
+                    <p>English, Bangla, Hindi,Urdu</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-users"></i>
+                    <h3>Public Speaking</h3>
+                    <p>I have public speaking skills, allowing me to communicate confidently and engage my audience effectively.</p>
+                </div>
+            </div>
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <div class="card-container">
+                <div class="card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Painting</h3>
+                    <p>Painting is a beautiful form of expression that allows me to bring my imagination to life. With every brushstroke, I can create a world of colors, shapes, and emotions. It’s a way for me to connect with my inner self and share my perspective of the world.</p>
+                    <section id="paintings">
+                        <h2>My Paintings</h2>
+                        <div class="card-container">
+                            <div class="card">
+                                <img src="https://i.postimg.cc/hv6jm1mQ/Whats-App-Image-2025-01-04-at-22-39-41-1e9871d1.jpg" alt="Painting 1" style="width:100%; border-radius:8px;">
+                                <h3>Outline Art</h3>
+                            </div>
+                            <div class="card">
+                                <img src="https://i.postimg.cc/T2Dp8Zvr/Whats-App-Image-2025-01-04-at-22-56-24-18a733b8.jpg" alt="Painting 2" style="width:100%; border-radius:8px;">
+                                <h3>Acrylic Painting</h3>
+                            </div>
+                            <!-- Add more paintings as needed -->
+                    </div>
+                    </section>                    
+                </div>
+                <br>
+                <div class="card">
+                    <i class="fas fa-music"></i>
+                    <h3>Listening to Music</h3>
+                    <p>Listening to music is a powerful escape that helps me relax and reflect. Whether it's a soothing melody or an upbeat rhythm, music has the ability to lift my mood and energize my spirit. It’s my personal companion through different moments of life, offering comfort and inspiration.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-book"></i>
+                    <h3>Reading</h3>
+                    <p>Exploring literature and tech-related articles to gain knowledge and inspiration.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-animal"></i>
+                    <h3>Spending time with my pets</h3>
+                    <p>Spending time with my pets is one of the most fulfilling experiences. Their unconditional love and playful nature always brighten my day. Whether it's cuddling or simply watching them, every moment spent with them is precious and full of joy.</p>
+                </div>
+            </div>
+        </section>        
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="card-container">
+                <div class="card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Address</h3>
+                    <p>Block-A, Chandgaon Recidencial Area, Chittagong</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:tasnimhalima05@gmail.com">tasnimhalima05@gmail.com</a></p>
+                </div>
+                <div class="card">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p><a href="https://www.instagram.com/haluuuum/profilecard/?igsh=Ym12N2R3ODlydHh5" target="_blank">Tasnim</a></p>
+                </div>
+                <div class="card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/halima-khanam-tasnim-5aa5b2340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Halima Khanam Tasnim</a></p>
+                </div>
+                <div class="card">
+                    <i class="fab fa-facebook"></i>
+                    <h3>Facebook</h3>
+                    <p><a href="https://www.facebook.com/halimatasnim001" target="_blank">Tasnim A.</a></p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 Halima Khanam Tasnim | <a href="#">Privacy Policy</a></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
